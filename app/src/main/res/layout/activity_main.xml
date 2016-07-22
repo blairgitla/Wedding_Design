@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.example.android.weddingdesign.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  Once in a while, right in the middle of an ordinary life, love gives us a fairytale."
+            android:textStyle="bold"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#F06292"
+            android:typeface="serif" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textStyle="italic|bold"
+            android:textColor="#BA68C8"
+            android:text="01    A Flower-Filled Dance Floor"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:text="      It's like the elegant wedding version of a disco dance floor. Planner and event designer Preston Bailey and his team created this dance floor that lit bright yellow and purple flowers from underneath to create a serious pop in the middle of the room. It's a complete room transformation like this that makes us love weddings." />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="top"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:src="@drawable/flower_filled" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textStyle="bold|italic"
+            android:textColor="#FFB74D"
+            android:text="02    A Draped Checkerboard Ceiling"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:text="      This modern draped ceiling, by designer and planner Tara Guerard, takes the black-and-white checkerboard dance floor and literally turns it around for a totally unexpected look. For an otherwise classic, formal wedding at Marlsgate Plantation in Scott, Arkansas, this lounge area was the perfect place to let loose a little with the design. The draped ceiling adds a fun twist to the other elegant details, like the navy and white color palette, comfy living-room-style seating and damask print details." />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="top"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:src="@drawable/draped_checkerboard" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textStyle="bold|italic"
+            android:textColor="#0288D1"
+            android:text="03    An All-White Hanging Centerpiece"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:text="      Tons of all-white orchids floating above the tables seem to defy gravity in this hanging centerpiece by floral and event designer Nancy Liu Chin. But beyond its beauty, this design is also pretty practical -- elevating the centerpieces above the table leaves space open for guests to mingle! Over-the-top, but functional, is a trend that Chin embraces in her modern-yet-elegant designs." />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="top"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:src="@drawable/all_white" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textStyle="bold|italic"
+            android:textColor="#388E3C"
+            android:text="04    A Ceremony With a Hanging Garden"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:text="      Talk about a total room transformation! This wisteria-and-chandelier-covered ceiling, created by wedding designer and planner Jeannie Savage, takes the idea of a garden wedding to a whole new level. And it's the complete transformation -- from the SLS Hotel in Beverly Hills, California, to an enchanted garden -- that's really amazing. We created an environment that was unexpected and out of the ordinary." />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="top"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:src="@drawable/hanging_garden" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textStyle="bold|italic"
+            android:textColor="#FF6F00"
+            android:text="05    An Open-Top Tent"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:text="      When you think about it, nature really does provide some of the best scenery just take a starry night sky, for example. And event designer Sharon Sacks used nature to her advantage when planning this tented wedding reception. We left the ceiling open in sections so guests could see the stars while still creating an intimate feel by making a space for the reception. It also meant guests got a great view of fireworks at the end of the night!" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="top"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:src="@drawable/open_top" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="10dp"
+            android:text="Please choose at least one kind of wedding style that you are interested in. If you have any other requirement in your wedding, please write it down. Press the button, and we will send an email to confirm."
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textStyle="italic" />
+
+        <CheckBox
+            android:id="@+id/flower_filled"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A Flower-Filled Dance Floor" />
+
+        <CheckBox
+            android:id="@+id/draped_checkerboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A Draped Checkerboard Ceiling" />
+
+        <CheckBox
+            android:id="@+id/all_white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="An All-White Hanging Centerpiece" />
+
+        <CheckBox
+            android:id="@+id/hanging_garden"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A Ceremony With a Hanging Garden" />
+
+        <CheckBox
+            android:id="@+id/open_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="An Open-Top Tent" />
+
+        <EditText
+            android:id="@+id/requirement_editText_view"
+            android:hint="Requirement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapWords"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="submitConfirm"
+            android:text="Confirm"
+            android:textAllCaps="true"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+</ScrollView>
